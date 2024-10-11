@@ -21,7 +21,7 @@ export const PaymentMethod = () => {
 
   return (
     <section className="mt-5 pt-3 container text-light pb-5">
-      <h2 className="text-light text-center">Métodos De Pago</h2>
+      <h2 className="text-light text-center" id="metodosdepago">Métodos De Pago</h2>
 
       <div className="d-flex justify-content-center">
         <hr className="w-50" />

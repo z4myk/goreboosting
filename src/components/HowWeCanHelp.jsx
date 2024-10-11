@@ -9,7 +9,7 @@ export const HowWeCanHelp = () => {
     return (
         <div className="pb-2">
             <section className="triangle p-5 mb-5">
-                <div className="text-center mb-5" id="nosotros">
+                <div className="text-center mb-5" >
                     <h2 className="text-light ">¿Cómo ayudamos?</h2>
                     <div className="d-flex justify-content-center ">
 

@@ -1,6 +1,7 @@
 import React from "react";
 import background from "../assets/background.png";
 import optimizacion from "../assets/optimizacion.jpg";
+import {Link} from 'react-router-dom'
 export const Header = () => {
   return (
     <header className=" ">
@@ -50,11 +51,11 @@ export const Header = () => {
                     </p>
                 <div className="d-flex justify-content-center">
 
+                      <Link to="/#servicios">
                     <div class="button-borders">
-                      <a href="#servicios">
                       <button class="primary-button"> VER SERVICIOS</button>
-                      </a>
                     </div>
+                      </Link>
                 </div>
                   </div>
                 </div>

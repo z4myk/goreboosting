@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import counterstrike from '../assets/counterstrike.jpg'
 import leagueoflegend from '../assets/leagueoflegend.jpg'
 import valorant from '../assets/valorant.jpg'
@@ -15,7 +16,9 @@ export const Services = () => {
                     <div className="">
                         <img src={valorant} className="cardValorant  rounded shadow" />
                         <div class="button-borders mt-3  w-100 ">
+                          <Link to="/eloboost-valorant">
                       <button class="primary-button w-100 "> ELOBOOST VALORANT</button>
+                          </Link>
                     </div>
                     </div>
 

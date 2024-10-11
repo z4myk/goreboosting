@@ -328,6 +328,18 @@ hr {border: 3px solid  #FF4655; border-radius: 300px/10px; height: 0px; text-ali
   background-color: #0000004f;
 }
 
+.boxFooter{
+ 
+  border-left: 1px solid #ff465635;
+}
+
+.iconFooter{
+  width: 30px;
+}
+
+.iconFooterGrande{
+  width: 45px;
+}
 
 /* From Uiverse.io by mrhyddenn */ 
 .scrolldown {
@@ -664,4 +676,134 @@ textarea::placeholder{
   color: #ffffff !important;
   font-weight: bold; 
  
+}
+
+
+
+
+
+/* Valorant.css */
+.rank-selector {
+  margin-bottom: 30px;
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.selected-rank {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ff4655;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.selected-rank img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.rank-options {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.rank-options.show {
+  display: block;
+}
+
+.rank-options li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.rank-options li:hover {
+  background-color: #1d1d1d;
+}
+
+.rank-options li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+
+
+/* From Uiverse.io by mi-series */ 
+.btnWhatsapp {
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #25d365b1;
+  min-width: 200px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  padding: 16px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btnWhatsapp:hover {
+  opacity: .95;
+}
+
+.btnWhatsapp .animation {
+  border-radius: 100%;
+  animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+  }
+}
+
+
+.cardPrecios{
+  background-color: rgba(0, 0, 0, 0.248);
+  border: 1px solid #ff465651;
+  
+}
+
+.iconoManos{
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+.navbarBackground{
+  background-color: #181818;
+  
 }

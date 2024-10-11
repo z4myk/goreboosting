@@ -5,7 +5,7 @@ export const AboutUs = () => {
         
         <section className="container mt-5" >
             <div className=" ">
-            <h2 className="text-light  text-center mt-5 pt-4  ">Sobre Nosotros</h2>
+            <h2 className="text-light  text-center mt-5 pt-4  " id="nosotros">Sobre Nosotros</h2>
             <div className="d-flex justify-content-center">
 
             <hr className="w-50"/>

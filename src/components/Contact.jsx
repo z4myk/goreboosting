@@ -4,7 +4,7 @@ export const Contact = () => {
     return (
         <>
             <section className="container pt-5 mb-5 pb-5">
-            <h2 className="text-center text-light">Contactanos</h2>
+            <h2 className="text-center text-light" id="contactanos">Contactanos</h2>
             <div className="d-flex justify-content-center mb-4">
                 <hr className="w-50" />
             </div>
@@ -76,7 +76,7 @@ export const Contact = () => {
            <textarea className="bg-dark form-control borderInputs text-light" placeholder="Mensaje" rows="4"></textarea>
         </div>
 
-        <button className="btn btn-success w-50 p-2">Enviar</button>
+        <button className="btn btn-success w-75  p-2" type="submit">Enviar</button>
     </form>
                         </div>
   

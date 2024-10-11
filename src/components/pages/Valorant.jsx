@@ -4,11 +4,34 @@ import rankValorant from '../data/rankValorant.json';
 import { Header } from '../Header';
 import Swal from 'sweetalert2';
 import oro from '../../assets/oro.png'
+import hierroImg from '../../assets/hierro.png';
+import bronzeImg from '../../assets/bronze.png';
+import plataImg from '../../assets/plata.png';
+import oroImg from '../../assets/oro.png';
+import platinoImg from '../../assets/platino.png';
+import diamanteImg from '../../assets/diamante.png';
+import ascendenteImg from '../../assets/ascendente.png';
+import inmortalImg from '../../assets/inmortal.png';
+import radianteImg from '../../assets/radiante.webp';
+
+
 export const Valorant = () => {
     const [currentRank, setCurrentRank] = useState('');
     const [desiredRank, setDesiredRank] = useState('');
     const [currentRankImage, setCurrentRankImage] = useState('');
     const [desiredRankImage, setDesiredRankImage] = useState('');
+
+    const imageMap = {
+        'hierro.png': hierroImg,
+        'bronze.png': bronzeImg,
+        'plata.png': plataImg,
+        'oro.png': oroImg,
+        'platino.png': platinoImg,
+        'diamante.png': diamanteImg,
+        'ascendente.png': ascendenteImg,
+        'inmortal.png': inmortalImg,
+        'radiante.webp': radianteImg,
+    };
 
     const rankOrder = rankValorant.map(rank => rank.name); // Array of rank names for comparison
 
@@ -29,7 +52,7 @@ export const Valorant = () => {
             }
 
             setCurrentRank(rank);
-            setCurrentRankImage(selectedRank ? selectedRank.imageUrl : '');
+            setCurrentRankImage(selectedRank ? imageMap[selectedRank.imageUrl] : '');
             // Si el rango actual se cambia, se puede restablecer el rango deseado
             setDesiredRank('');
             setDesiredRankImage('');
@@ -61,7 +84,7 @@ export const Valorant = () => {
             }
 
             setDesiredRank(rank);
-            setDesiredRankImage(selectedRank ? selectedRank.imageUrl : '');
+            setDesiredRankImage(selectedRank ? imageMap[selectedRank.imageUrl] : '');
         }
     };
 
@@ -111,7 +134,7 @@ export const Valorant = () => {
                         <ul id="current-rank-options" className="rank-options bg-dark w-100">
                             {rankValorant.map(rank => (
                                 <li key={rank.id} onClick={() => handleRankSelection(rank.name, true)}>
-                                    <img src={rank.imageUrl} alt={rank.name} />
+                                    <img src={imageMap[rank.imageUrl]} alt={rank.name} />
                                     <span>{rank.name}</span>
                                 </li>
                             ))}
@@ -127,7 +150,7 @@ export const Valorant = () => {
                         <ul id="desired-rank-options" className="rank-options bg-dark w-100">
                             {rankValorant.map(rank => (
                                 <li key={rank.id} onClick={() => handleRankSelection(rank.name, false)}>
-                                    <img src={rank.imageUrl} alt={rank.name} />
+                                    <img src={imageMap[rank.imageUrl]} alt={rank.name} />
                                     <span>{rank.name}</span>
                                 </li>
                             ))}

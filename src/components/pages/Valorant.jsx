@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import rankValorant from '../data/rankValorant.json';
 import { Header } from '../Header';
 import Swal from 'sweetalert2';
-
+import oro from '../../assets/oro.png'
 export const Valorant = () => {
     const [currentRank, setCurrentRank] = useState('');
     const [desiredRank, setDesiredRank] = useState('');
@@ -87,6 +87,7 @@ export const Valorant = () => {
     return (
         <>
             <Header />
+
             <div className="cardPrecios mt-4 p-2 container text-center">
                 <p className="container text-light mt-4">
                     Entendemos que puede ser tedioso revisar los precios de los productos que deseas adquirir, especialmente considerando la variedad de rangos y combinaciones disponibles. Para facilitar el proceso y brindarte una mejor experiencia, te invitamos a contactarnos directamente con tus consultas. Estaremos encantados de responder a tus preguntas de manera rápida y ofrecerte una atención personalizada para asegurar tu completa satisfacción.

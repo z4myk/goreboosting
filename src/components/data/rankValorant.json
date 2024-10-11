@@ -2,127 +2,127 @@
     {
         "id": 1,
         "name": "Hierro 1",
-        "imageUrl": "/src/assets/hierro.png"
+        "imageUrl": "../../assets/hierro.png"
     },
     {
         "id": 2,
         "name": "Hierro 2",
-        "imageUrl": "./src/assets/hierro.png"
+        "imageUrl": ".../../assets/hierro.png"
     },
     {
         "id": 3,
         "name": "Hierro 3",
-        "imageUrl": "./src/assets/hierro.png"
+        "imageUrl": ".../../assets/hierro.png"
     },
     {
         "id": 4,
         "name": "Bronce 1",
-        "imageUrl": "/src/assets/bronze.png"
+        "imageUrl": "../../assets/bronze.png"
     },
     {
         "id": 5,
         "name": "Bronce 2",
-        "imageUrl": "/src/assets/bronze.png"
+        "imageUrl": "../../assets/bronze.png"
     },
     {
         "id": 6,
         "name": "Bronce 3",
-        "imageUrl": "/src/assets/bronze.png"
+        "imageUrl": "../../assets/bronze.png"
     },
     {
         "id": 7,
         "name": "Plata 1",
-        "imageUrl": "/src/assets/plata.png"
+        "imageUrl": "../../assets/plata.png"
     },
     {
         "id": 8,
         "name": "Plata 2",
-        "imageUrl": "/src/assets/plata.png"
+        "imageUrl": "../../assets/plata.png"
     },
     {
         "id": 9,
         "name": "Plata 3",
-        "imageUrl": "/src/assets/plata.png"
+        "imageUrl": "../../assets/plata.png"
     },
     {
         "id": 10,
         "name": "Oro 1",
-        "imageUrl": "/src/assets/oro.png"
+        "imageUrl": "../../assets/oro.png"
     },
     {
         "id": 11,
         "name": "Oro 2",
-        "imageUrl": "/src/assets/oro.png"
+        "imageUrl": "../../assets/oro.png"
     },
     {
         "id": 12,
         "name": "Oro 3",
-        "imageUrl": "/src/assets/oro.png"
+        "imageUrl": "../../assets/oro.png"
     },
     {
         "id": 13,
         "name": "Platino 1",
-        "imageUrl": "/src/assets/platino.png"
+        "imageUrl": "../../assets/platino.png"
     },
     {
         "id": 14,
         "name": "Platino 2",
-        "imageUrl": "/src/assets/platino.png"
+        "imageUrl": "../../assets/platino.png"
     },
     {
         "id": 15,
         "name": "Platino 3",
-        "imageUrl": "/src/assets/platino.png"
+        "imageUrl": "../../assets/platino.png"
     },
     {
         "id": 16,
         "name": "Diamante 1",
-        "imageUrl": "/src/assets/diamante.png"
+        "imageUrl": "../../assets/diamante.png"
     },
     {
         "id": 17,
         "name": "Diamante 2",
-        "imageUrl": "/src/assets/diamante.png"
+        "imageUrl": "../../assets/diamante.png"
     },
     {
         "id": 18,
         "name": "Diamante 3",
-        "imageUrl": "/src/assets/diamante.png"
+        "imageUrl": "../../assets/diamante.png"
     },
     {
         "id": 19,
         "name": "Ascendente 1",
-        "imageUrl": "/src/assets/ascendente.png"
+        "imageUrl": "../../assets/ascendente.png"
     },
     {
         "id": 20,
         "name": "Ascendente 2",
-        "imageUrl": "/src/assets/ascendente.png"
+        "imageUrl": "../../assets/ascendente.png"
     },
     {
         "id": 21,
         "name": "Ascendente 3",
-        "imageUrl": "/src/assets/ascendente.png"
+        "imageUrl": "../../assets/ascendente.png"
     },
     {
         "id": 22,
         "name": "Inmortal 1",
-        "imageUrl": "/src/assets/inmortal.png"
+        "imageUrl": "../../assets/inmortal.png"
     },
     {
         "id": 23,
         "name": "Inmortal 2",
-        "imageUrl": "/src/assets/inmortal.png"
+        "imageUrl": "../../assets/inmortal.png"
     },
     {
         "id": 24,
         "name": "Inmortal 3",
-        "imageUrl": "/src/assets/inmortal.png"
+        "imageUrl": "../../assets/inmortal.png"
     }, 
     {
         "id": 25,
         "name": "Radiante",
-        "imageUrl": "/src/assets/radiante.webp"
+        "imageUrl": "../../assets/radiante.webp"
     }
 
    

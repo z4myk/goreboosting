@@ -39,50 +39,64 @@ export const Footer = () => {
           <Link to="/#contactanos" className="text-decoration-none">
             <p className="text-secondary">Contacto</p>
           </Link>
+          <Link to="/eloboost-valorant" className="text-decoration-none">
+            <p className="text-secondary">Eloboost Valorant</p>
+          </Link>
+          <Link to="/eloboost-leagueoflegends" className="text-decoration-none">
+            <p className="text-secondary">Eloboost League Of Legends</p>
+          </Link>
+          <Link to="/eloboost-counterstrike2" className="text-decoration-none">
+            <p className="text-secondary">Eloboost Counter Strike 2</p>
+          </Link>
         </div>
         <div className="col-12 mt-5 text-center"> {/* Añadido text-center */}
           <div className="d-flex justify-content-center gap-4 flex-wrap">
-            <a href="https://www.facebook.com/goreboosting/" target="_blank" className="text-decoration-none text-light">
+            <a href="https://www.facebook.com/goreboosting/" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestra página de Facebook">
               <i className="fi fi-brands-facebook"></i>
+              <span class="visually-hidden">Facebook</span>
             </a>
-            <a href="https://x.com/_9ore" target="_blank" className="text-decoration-none text-light">
+            <a href="https://x.com/_9ore" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestra pagina de Twitter">
               <i className="fi fi-brands-twitter-alt"></i>
+              <span class="visually-hidden">Twitter</span>
             </a>
-            <a href="https://www.instagram.com/goreboosting_oficial/" target="_blank" className="text-decoration-none text-light">
+            <a href="https://www.instagram.com/goreboosting_oficial/" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestra página de Instagram">
               <i className="fi fi-brands-instagram"></i>
+              <span class="visually-hidden">Instagram</span>
             </a>
-            <a href="https://www.twitch.tv/goretwitch" target="_blank" className="text-decoration-none text-light">
+            <a href="https://www.twitch.tv/goretwitch" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro canal de Twitch">
               <i className="fi fi-brands-twitch"></i>
+              <span class="visually-hidden">Twitch</span>
             </a>
-            <a href="http://discord.gg/invite/goreboosting" target="_blank" className="text-decoration-none text-light">
+            <a href="http://discord.gg/invite/goreboosting" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro Discord">
               <i className="fi fi-brands-discord"></i>
+              <span class="visually-hidden">Discord</span>
             </a>
           </div>
         </div>
 
         <div className="d-flex justify-content-center mt-4 gap-4">
             <div>
-            <img  src={banktransfer} className="iconFooter" />
+            <img  src={banktransfer} className="iconFooter" alt="Transferencia Bancaria" />
             </div>
 
             <div>
-            <img  src={binance} className="iconFooterGrande" />
+            <img  src={binance} className="iconFooterGrande" alt="Binance" />
             </div>
 
             <div>
-            <img  src={paypal} className="iconFooterGrande" />
+            <img  src={paypal} className="iconFooterGrande" alt="Paypal" />
             </div>
 
             <div>
-            <img  src={mercadopago} className="iconFooterGrande" />
+            <img  src={mercadopago} className="iconFooterGrande" alt="Mercado Pago" />
             </div>
 
             <div>
-            <img  src={yape} className="iconFooter" />
+            <img  src={yape} className="iconFooter"  alt="Yape" />
             </div>
 
             <div>
-            <img  src={plin} className="iconFooter" />
+            <img  src={plin} className="iconFooter" alt="Plin" />
             </div>
         </div>
       </section>

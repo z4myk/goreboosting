@@ -21,6 +21,7 @@ export const Contact = () => {
                     target="_blank"
                     href="http://instagram.com/goreboosting_oficial"
                   >
+                     <span class="visually-hidden">Instagram</span>
                     <i
                       class="fi fi-brands-instagram rounded text-light socialSvg"
                       aria-hidden="true"
@@ -32,6 +33,7 @@ export const Contact = () => {
                     target="_blank"
                     href="https://api.whatsapp.com/send/?phone=56978737251&text=Hola%21+me+interesa+el+servicio+de+Eloboosting+%F0%9F%99%82"
                   >
+                     <span class="visually-hidden">Whatsapp</span>
                     <i class="fi fi-brands-whatsapp text-light socialSvg "></i>
                   </a>
                   <a
@@ -39,6 +41,7 @@ export const Contact = () => {
                     target="_blank"
                     href="http://discord.gg/invite/goreboosting"
                   >
+                     <span class="visually-hidden">Discord</span>
                     <i class="fi fi-brands-discord iconDiscord  text-light mx-5 socialSvg"></i>
                   </a>
                   <a
@@ -46,6 +49,7 @@ export const Contact = () => {
                     target="_blank"
                     href="http://facebook.com/goreboosting"
                   >
+                     <span class="visually-hidden">Facebook</span>
                     <i class="fi fi-brands-facebook text-light socialSvg"></i>
                   </a>
                 </div>

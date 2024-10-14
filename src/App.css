@@ -742,6 +742,23 @@ textarea::placeholder{
   margin-right: 10px;
 }
 
+.rank-options::-webkit-scrollbar-track {
+  background: #000000; /* Color del fondo del track del scrollbar */
+  border-radius: 5px; /* Bordes redondeados para el track */
+}
+
+/* Para navegadores que no son WebKit, puedes usar estas propiedades */
+.rank-options {
+  border-radius: 15x;
+  scrollbar-width: thin; /* Ancho del scrollbar (Firefox) */
+  scrollbar-color: #ff4655 #000000; /* Color del thumb y del track (Firefox) */
+}
+
+
+
+
+
+
 
 
 /* From Uiverse.io by mi-series */ 
@@ -806,4 +823,14 @@ textarea::placeholder{
 .navbarBackground{
   background-color: #181818;
   
+}
+
+
+.borderRankLol{
+  border: 1px solid #ff4655;
+}
+
+
+.logofaceit{
+  width: 35px;
 }

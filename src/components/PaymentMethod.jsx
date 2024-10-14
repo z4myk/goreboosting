@@ -29,12 +29,12 @@ export const PaymentMethod = () => {
 
       <div className="d-flex justify-content-around text-center flex-wrap gap-3 mt-4">
             <div className="border p-4 glass-card" >
-                <img src={chile} className="w-25"  />
+                <img src={chile} className="w-25" alt="Pais chile"  />
                 <h4 >Chile</h4>
 
                 <div className="text-center">
                   <div className=" mb-2">
-                <img src={banktransfer} className="iconoArgentina"  />
+                <img src={banktransfer} className="iconoArgentina" alt="Transferencia Bancaria" />
                 <p><i>Transferencia <br/> bancaria</i></p>
                   </div>
                 </div>
@@ -43,19 +43,19 @@ export const PaymentMethod = () => {
 
             </div>
             <div className="border p-4 glass-card">
-            <img src={argentina} className="w-25 mt-2"  />
+            <img src={argentina} className="w-25 mt-2" alt="Pais Argentina" />
                 <h4 className="">Argentina</h4>
 
                 <div className="text-center">
                   <div className=" mb-2">
-                <img src={mercadopago} className="w-50"  />
+                <img src={mercadopago} className="w-50" alt="Mercado Pago" />
 
                   </div>
                 </div>
 
             </div>
             <div className="border p-4 glass-card">
-            <img src={peru} className="w-25 "  />
+            <img src={peru} className="w-25 "  alt="Pais Perú" />
                 <h4>Perú</h4>
 
   <div className="d-flex justify-content-center">
@@ -63,21 +63,21 @@ export const PaymentMethod = () => {
 
 
                   <div className=" mb-2">
-                <img src={yape} className="w-50 rounded-5 mt-3"  />
+                <img src={yape} className="w-50 rounded-5 mt-3" alt="Yape" />
 
                   </div>
                 </div>
 
                 <div className="text-center">
                   <div className=" mb-2">
-                <img src={plin} className="w-50 rounded-5 mt-3"  />
+                <img src={plin} className="w-50 rounded-5 mt-3" alt="Plin"  />
 
                   </div>
                 </div>
   </div>
                 <div className="text-center">
                   <div className=" mb-2">
-                <img src={banktransfer} className="iconoArgentina"  />
+                <img src={banktransfer} className="iconoArgentina" alt="Transferencia Bancaria" />
                 <p><i>Transferencia <br/> bancaria</i></p>
                   </div>
                 </div>
@@ -85,18 +85,18 @@ export const PaymentMethod = () => {
 
             </div>
             <div className="border p-4 glass-card" >
-            <img src={internacional} className="w-25 mt-2"  />
+            <img src={internacional} className="w-25 mt-2"  alt="Internacional"/>
                 <h4 className="">Internacional</h4>
             <div className="row">
               <div className="col-sm-12 col-md-12">
 
                   <div className="">
-                <img src={binance} className="iconoPaypal"  />
+                <img src={binance} className="iconoPaypal"  alt="Binance" />
                 <i class="fi fi-ts-diamond-exclamation text-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" title="USDT Tether"></i>
                   </div>
              
                   <div className="">
-                <img src={paypal} className="iconoPaypal"  />
+                <img src={paypal} className="iconoPaypal" alt="Paypal" />
                 <i class="fi fi-ts-diamond-exclamation text-warning ms-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Se debe pagar una comisión si se elije este metodo."></i>
                   </div>
               </div>

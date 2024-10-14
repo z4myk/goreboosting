@@ -16,7 +16,7 @@ export const AboutUs = () => {
      >
 
             <div className="col-sm-12 col-md-6 text-light">
-                <h5 className="text-center">Somos especialistas <img src={medalladeoro} className="iconoMedallaDeOro" /></h5>
+                <h5 className="text-center">Somos especialistas <img src={medalladeoro} className="iconoMedallaDeOro" alt="Medalla de oro" /></h5>
                
             <p className="text-light" >En <b>Goreboosting</b> nos especializamos en ofrecer un servicio de eloboost impecable desde hace más de 3 años. A lo largo del tiempo, hemos expandido nuestro alcance, con más de <b>2,800 </b>cuentas eloboosteadas y sin ningún baneo por eloboost, toxicidad o cualquier otro motivo.</p>
             <p >Somos profesionales en lo que hacemos, y nuestra seriedad y compromiso nos han convertido <b>en una de las opciones de eloboost más confiables y rápidas del mercado.</b> </p>

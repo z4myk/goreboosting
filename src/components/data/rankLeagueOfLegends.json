@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "Unranked",
+        "imageUrl": "lolunranked.webp"
+    },
+    {
+        "id": 2,
+        "name": "Hierro 4",
+        "imageUrl": "lolhierro.webp"
+    },
+    {
+        "id": 3,
+        "name": "Hierro 3",
+        "imageUrl": "lolhierro.webp"
+    },
+    {
+        "id": 4,
+        "name": "Hierro 2",
+        "imageUrl": "lolhierro.webp"
+    },
+    {
+        "id": 5,
+        "name": "Hierro 1",
+        "imageUrl": "lolhierro.webp"
+    },
+    {
+        "id": 6,
+        "name": "Bronce 4",
+        "imageUrl": "lolbronce.webp"
+    },
+    {
+        "id": 7,
+        "name": "Bronce 3",
+        "imageUrl": "lolbronce.webp"
+    },
+    {
+        "id": 8,
+        "name": "Bronce 2",
+        "imageUrl": "lolbronce.webp"
+    },
+    {
+        "id": 9,
+        "name": "Bronce 1",
+        "imageUrl": "lolbronce.webp"
+    },
+    {
+        "id": 10,
+        "name": "Plata 4",
+        "imageUrl": "lolplata.webp"
+    },
+    {
+        "id": 11,
+        "name": "Plata 3",
+        "imageUrl": "lolplata.webp"
+    },
+    {
+        "id": 12,
+        "name": "Plata 2",
+        "imageUrl": "lolplata.webp"
+    },
+    {
+        "id": 13,
+        "name": "Plata 1",
+        "imageUrl": "lolplata.webp"
+    },
+    {
+        "id": 14,
+        "name": "Oro 4",
+        "imageUrl": "loloro.webp"
+    },
+    {
+        "id": 15,
+        "name": "Oro 3",
+        "imageUrl": "loloro.webp"
+    },
+    {
+        "id": 16,
+        "name": "Oro 2",
+        "imageUrl": "loloro.webp"
+    },
+    {
+        "id": 17,
+        "name": "Oro 1",
+        "imageUrl": "loloro.webp"
+    },
+    {
+        "id": 18,
+        "name": "Platino 4",
+        "imageUrl": "lolplatino.webp"
+    },
+    {
+        "id": 19,
+        "name": "Platino 3",
+        "imageUrl": "lolplatino.webp"
+    },
+    {
+        "id": 20,
+        "name": "Platino 2",
+        "imageUrl": "lolplatino.webp"
+    },
+    {
+        "id": 21,
+        "name": "Platino 1",
+        "imageUrl": "lolplatino.webp"
+    },
+    {
+        "id": 22,
+        "name": "Esmeralda 4",
+        "imageUrl": "lolesmeralda.webp"
+    },
+    {
+        "id": 23,
+        "name": "Esmeralda 3",
+        "imageUrl": "lolesmeralda.webp"
+    },
+    {
+        "id": 24,
+        "name": "Esmeralda 2",
+        "imageUrl": "lolesmeralda.webp"
+    },
+    {
+        "id": 25,
+        "name": "Esmeralda 1",
+        "imageUrl": "lolesmeralda.webp"
+    },
+    {
+        "id": 26,
+        "name": "Diamante 4",
+        "imageUrl": "loldiamante.webp"
+    },
+    {
+        "id": 27,
+        "name": "Diamante 3",
+        "imageUrl": "loldiamante.webp"
+    },
+    {
+        "id": 28,
+        "name": "Diamante 2",
+        "imageUrl": "loldiamante.webp"
+    },
+    {
+        "id": 29,
+        "name": "Diamante 1",
+        "imageUrl": "loldiamante.webp"
+    },
+    {
+        "id": 30,
+        "name": "Maestro",
+        "imageUrl": "lolmaestro.webp"
+    }
+
+   
+]

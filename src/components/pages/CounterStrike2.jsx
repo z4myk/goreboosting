@@ -53,7 +53,7 @@ export const CounterStrike2 = () => {
             </div>
 
             <div className="container mt-5 text-light text-center">
-                <h2>¡Elige tu Modo de Juego en Counter Strike 2!</h2>
+                <h2>¡Elige tu Modo de Juego para Eloboost en Counter Strike 2!</h2>
                 <div className="d-flex justify-content-center mb-2 pb-3">
                     <hr className="w-50" />
                 </div>

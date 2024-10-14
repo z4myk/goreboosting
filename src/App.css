@@ -511,7 +511,6 @@ hr {border: 3px solid  #FF4655; border-radius: 300px/10px; height: 0px; text-ali
     text-align: center;
 }
 
-
 .stat-item h2 {
     font-size: 2rem;
     margin: 0;
@@ -833,4 +832,27 @@ textarea::placeholder{
 
 .logofaceit{
   width: 35px;
+}
+
+
+
+
+
+
+.cardServices{
+  border-radius: 5px;
+  width: 600px;
+  height: 650px;
+border-radius: 5px;
+transition: transform 0.3s ease, box-shadow 0.2s ease, background 0.3s ease;
+background-color: rgba(0, 0, 0, 0.309);
+}
+
+.cardServices:hover{
+  border: 1px solid #ff4655;
+  transform: translateY(-5px) scale(1.02); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+
+  background: linear-gradient(to top, #ff465646, transparent);
+  
 }

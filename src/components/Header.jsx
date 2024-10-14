@@ -26,12 +26,6 @@ export const Header = () => {
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active d-item">
@@ -71,10 +65,11 @@ export const Header = () => {
                     <p>Elimina el input lag, estabiliza tus FPS y mejora el rendimiento de tu PC sin necesidad de overclock. ¡Juega con la máxima calidad y fluidez en cualquier juego!</p>
 
                 <div className="d-flex justify-content-center">
-
+                  <Link to="/optimizacion-para-pc#optimizacion">
                     <div class="button-borders">
                       <button class="primary-button"> VER MAS DETALLES</button>
                     </div>
+                  </Link>
                 </div>
                   </div>
                 </div>

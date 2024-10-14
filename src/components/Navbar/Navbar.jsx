@@ -37,7 +37,7 @@ export const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <Link to="/optimizacion-para-pc" className="text-decoration-none">
+              <Link to="/optimizacion-para-pc#optimizacion" className="text-decoration-none">
               <a className="nav-link text-light" href="#"><b>Optimización PC</b></a>
               </Link>
             </li>

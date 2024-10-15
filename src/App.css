@@ -482,6 +482,11 @@ hr {border: 3px solid  #FF4655; border-radius: 300px/10px; height: 0px; text-ali
     position: relative;
     z-index: 1;
   }
+
+  .cardCounterMobile{
+    flex-wrap: wrap;
+  }
+
   
   
   .cardLeague:hover, .cardCounter:hover, .cardValorant:hover {

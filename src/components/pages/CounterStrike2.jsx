@@ -61,21 +61,21 @@ export const CounterStrike2 = () => {
                 {/* Selector de Modo de Juego */}
                 <div className="game-mode-selector text-light mb-5">
                     <h4>Modo de Juego:</h4>
-                    <div className="d-flex justify-content-center gap-3">
+                    <div className="d-flex justify-content-center cardCounterMobile gap-3">
                         <button
-                            className={`btn w-50 p-3 borderRankLol ${mode === 'FACEIT' ? 'btn-success' : 'btn-dark'}`}
+                            className={`btn w-75 p-3 borderRankLol ${mode === 'FACEIT' ? 'btn-success' : 'btn-dark'}`}
                             onClick={() => handleModeSelection('FACEIT')}
                         >
                             <img src={faceit} className="logofaceit mx-3"/> FACEIT
                         </button>
                         <button
-                            className={`btn w-50 p-3 borderRankLol ${mode === 'PREMIER/MATCHMAKING' ? 'btn-success' : 'btn-dark'}`}
+                            className={`btn w-75 p-3 borderRankLol ${mode === 'PREMIER/MATCHMAKING' ? 'btn-success' : 'btn-dark'}`}
                             onClick={() => handleModeSelection('PREMIER/MATCHMAKING')}
                         >
                            <img src={premier} className="w-25"/> PREMIER/MATCHMAKING
                         </button>
                         <button
-                            className={`btn w-50 p-3 borderRankLol ${mode === 'GAMERSCLUB' ? 'btn-success' : 'btn-dark'}`}
+                            className={`btn w-75 p-3 borderRankLol ${mode === 'GAMERSCLUB' ? 'btn-success' : 'btn-dark'}`}
                             onClick={() => handleModeSelection('GAMERSCLUB')}
                         >
                            <img src={gamersclub} className="logofaceit mx-3"/>  GAMERSCLUB

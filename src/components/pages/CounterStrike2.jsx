@@ -43,21 +43,22 @@ export const CounterStrike2 = () => {
 </div>
 </div>
 </div>
-            <div className="cardPrecios mt-4 p-2 container text-center">
-                <p className="container text-light mt-4">
+           
+
+            <div className="container mt-5 text-light text-center">
+                <h2>¡Elige tu Modo de Juego para Eloboost en Counter Strike 2!</h2>
+                
+                <div className="d-flex justify-content-center mb-2 pb-3">
+                    <hr className="w-50" />
+                </div>
+                <div className="cardPrecios mt-4 p-2 mb-5 container text-center">
+                <p className="container text-light mt-4 small">
                     Entendemos que puede ser tedioso revisar los precios de los productos que deseas adquirir, especialmente considerando la variedad de rangos y combinaciones disponibles. Para facilitar el proceso y brindarte una mejor experiencia, te invitamos a contactarnos directamente con tus consultas. Estaremos encantados de responder a tus preguntas de manera rápida y ofrecerte una atención personalizada para asegurar tu completa satisfacción.
                 </p>
                 <Link to="/#metodosdepago" className="text-decoration-none">
                     <b>Ver nuestros métodos de pago</b>
                 </Link>
             </div>
-
-            <div className="container mt-5 text-light text-center">
-                <h2>¡Elige tu Modo de Juego para Eloboost en Counter Strike 2!</h2>
-                <div className="d-flex justify-content-center mb-2 pb-3">
-                    <hr className="w-50" />
-                </div>
-
                 {/* Selector de Modo de Juego */}
                 <div className="game-mode-selector text-light mb-5">
                     <h4>Modo de Juego:</h4>

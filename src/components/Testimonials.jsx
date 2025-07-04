@@ -40,28 +40,28 @@ export const Testimonials = () => {
 
     const testimonials = [
         {
-            name: "Andres",
-            feedback: "En 1 día , impecable 👌👌 , el mejor en esto es gore indudablemente 10/10"
+            name: "1-Hank-1",
+            feedback: "Excelente servicio como siempre, rapido, confiable y seguro!!! 💯"
           
         },
         {
-            name: "zen",
-            feedback: "Muy bueno el servicio, rapido, amable y paciente y 0 losses full victorias hasta el rango deseado, compraria en un futuro denuevo"
+            name: "Alonso Andrés ✞",
+            feedback: "Primer boosteo sin ningún problema,  muy rápido y confiable , lo recomiendo totalmente 🔥 💯"
           
         },
         {
-            name: "Vaxt",
-            feedback: "Servicio God. Muy eficaz y rápido Completamente recomendado"
+            name: "Xaioz_",
+            feedback: "Rápido, seguro y arregla el MMR, 10/10"
           
         },
         {
-            name: "DylanTUKI",
-            feedback: "2do boosteo, como siempre impecacle, 100% recomendado"
+            name: "легенда",
+            feedback: "Muy buen servicio, cumplió con todo lo estipulado y en muy poco tiempo 👍 👍"
       
         },
         {
-            name: "Mugetsu",
-            feedback: "Segunda vez, sin duda el mejor, seguro, rápido y confiable 😎"
+            name: "BIGMILKYESDAPOP",
+            feedback: "Excelente la mejor atencion al cliente y todo super rapido, 100% WR ademas, simplemente el mejor.💯"
             
         },
         {
@@ -70,23 +70,23 @@ export const Testimonials = () => {
           
         },
         {
-            name: "Matiasluengo",
-            feedback: "Puras bestias, se corrigió todo el mmr y la mala racha, agradecido con los cabros na que decir 🔥"
+            name: "yeyi",
+            feedback: "Excelente, muy rápido,completamente recomendado 10/10"
            
         },
         {
-            name: "Bombita",
-            feedback: "Increíble, Muy confiable  y sobre todo muy económico; para el tiempo en lo que la sube es rápido , lleven su boost!!"
+            name: "!! Ako",
+            feedback: "Buen servicio, cumplió con el boost en el tiempo establecido, lo recomiendo 100%!"
             
         },
         {
-            name: "Unmeii",
-            feedback: "demasiado buenos, rápido y a un preciazo. recomendado al 100%"
+            name: "RorxHyperX",
+            feedback: "Excelente servicio! Confiable 100 %, barato, rápido, fue mi primera experiencia contratando este servicio y me llevo un buen concepto. Recomendado."
            
         },
         {
-            name: "Melody",
-            feedback: "Servicio de pana, rápido y profesional, recomiendo mucho porque además de eficaz es muy confiable."
+            name: "sero",
+            feedback: "demoro menos de 24hs, todas ganadas, super contento, muy confiable, recomiendo al 100"
            
         }
     ];
@@ -99,7 +99,7 @@ export const Testimonials = () => {
                     <>
                         <div className="stat-item">
                             <h3>
-                                <CountUp start={1400} end={2800} duration={3} className="iconLogo" />+ <br />Cuentas Eloboosteadas
+                                <CountUp start={1400} end={3200} duration={3} className="iconLogo" />+ <br />Cuentas Eloboosteadas
                             </h3>
                         </div>
                         <div className="stat-item">
@@ -109,7 +109,7 @@ export const Testimonials = () => {
                         </div>
                         <div className="stat-item">
                             <h3>
-                                <CountUp start={600} end={1600} duration={3} className="iconLogo" />+ <br />Recomendaciones
+                                <CountUp start={600} end={1800} duration={3} className="iconLogo" />+ <br />Recomendaciones
                             </h3>
                         </div>
                     </>
@@ -118,7 +118,7 @@ export const Testimonials = () => {
         </div>
 
         <section className="   pt-5 mb-5 mt-5 pb-5">
-            <h2 className="text-center text-light">Nuestros Clientes</h2>
+            <h2 className="text-center text-light">Mis Clientes</h2>
             <div className="d-flex justify-content-center">
                 <hr className="w-50" />
             </div>

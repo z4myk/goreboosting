@@ -31,18 +31,14 @@ export const PaymentMethod = () => {
             <div className="border p-4 glass-card" >
                 <img src={chile} className="w-25" alt="Pais chile"  />
                 <h4 >Chile</h4>
-
-                <div className="text-center">
-                  <div className=" mb-2">
-                <img src={banktransfer} className="iconoArgentina" alt="Transferencia Bancaria" />
+                <div className="">
+                <img src={banktransfer}  className="iconoArgentina mt-4" alt="Transferencia bancaria" />
                 <p><i>Transferencia <br/> bancaria</i></p>
                   </div>
-                </div>
-            
              
 
             </div>
-            <div className="border p-4 glass-card">
+            {/* <div className="border p-4 glass-card">
             <img src={argentina} className="w-25 mt-2" alt="Pais Argentina" />
                 <h4 className="">Argentina</h4>
 
@@ -53,7 +49,7 @@ export const PaymentMethod = () => {
                   </div>
                 </div>
 
-            </div>
+            </div> */}
             <div className="border p-4 glass-card">
             <img src={peru} className="w-25 "  alt="Pais Perú" />
                 <h4>Perú</h4>

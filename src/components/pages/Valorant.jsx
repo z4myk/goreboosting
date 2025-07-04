@@ -119,19 +119,20 @@ export const Valorant = () => {
 </div>
 </div>
 </div>
-            <div className="cardPrecios mt-4 p-2 container text-center">
-                <p className="container text-light mt-4">
-                    Entendemos que puede ser tedioso revisar los precios de los productos que deseas adquirir, especialmente considerando la variedad de rangos y combinaciones disponibles. Para facilitar el proceso y brindarte una mejor experiencia, te invitamos a contactarnos directamente con tus consultas. Estaremos encantados de responder a tus preguntas de manera rápida y ofrecerte una atención personalizada para asegurar tu completa satisfacción.
-                </p>
-                <Link to="/#metodosdepago" className="text-decoration-none">
-                    <a className="text-primary text-decoration-none"><b>Ver nuestros métodos de pago</b></a>
-                </Link>
-            </div>
+        
             <div className="container mt-5 text-light text-center">
                 <h2>¡Elige tu Rango de EloBoost en Valorant!</h2>
                 <div className="d-flex justify-content-center mb-5 pb-3">
                     <hr className="w-50" />
                 </div>
+                <div className="cardPrecios mb-5 p-2 container text-center">
+                <p className="container text-light mt-4 small">
+                    Entendemos que puede ser tedioso revisar los precios de los productos que deseas adquirir, especialmente considerando la variedad de rangos y combinaciones disponibles. Para facilitar el proceso y brindarte una mejor experiencia, te invitamos a contactarnos directamente con tus consultas. Estaremos encantados de responder a tus preguntas de manera rápida y ofrecerte una atención personalizada para asegurar tu completa satisfacción.
+                </p>
+                <Link to="/#metodosdepago" className="text-decoration-none">
+                    <b>Ver nuestros métodos de pago</b>
+                </Link>
+            </div>
                 <div className="rank-selector gap-3">
                     <h4>Rango Actual:</h4>
                     <div className="custom-select" onClick={() => document.getElementById('current-rank-options').classList.toggle('show')}>

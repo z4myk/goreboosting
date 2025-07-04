@@ -29,43 +29,43 @@ export const Optimizacion = () => {
 
     const testimonials = [
         {
-            name: "RainDeuS",
-            feedback: "demasiado god la optimizacion, es super confiable y rapido asi que recomendado al 100%"
+            name: "aka",
+            feedback: "gran servicio y muy recomendado, es otro pc despues de la optimizacion, eficiente y rapido, la 🐐"
           
         },
         {
-            name: "w1bbaa",
-            feedback: "optimización culia wena, aparte de que el servicio es súper rápido y todo transparente para que cada uno vea que hacen, recomendado al 100% :3"
+            name: "Maxwelito",
+            feedback: "Muy recomendado y rápido y seguro, el mejor servicio que se puede tomar"
           
         },
         {
-            name: "Cursed",
-            feedback: "pensé que mi única opción era formatear mi pc entera pero decidí confiar y fue la mejor decisión! Totalmente recomendada su optimización!"
+            name: "rapier",
+            feedback: "Muy buen servicio y atención, muy recomendable 🙌🙌!!"
           
         },
         {
-            name: "K/2ou!",
-            feedback: "Super buena la optimización ya con solo iniciar sesión después de la optimización se nota mucho el cambio muy recomendada la opti 🐱"
+            name: "Dani",
+            feedback: "muy buen servicio, recomendado al 1000%"
       
         },
         {
-            name: "Gio",
-            feedback: "Muy buena optimización, rápida y eficaz, se fueron todos los bajones de fps muy estables muy recomendada"
+            name: "28.17.03",
+            feedback: "recomendadooo me saco los tironesss y quedo nitida la pc 100% 0 delay"
             
         },
         {
-            name: "BlastocystisSp",
-            feedback: "se nota la diferencia altoque, ya no me anda freezeado weooon que rico 🥵 , recomendada su optimización 🤯"
+            name: "EDGAR DINERO.",
+            feedback: "Recomendado, desde que prendi la pc despues de la optimizacion se nota la diferencia! 👏"
           
         },
         {
-            name: "Simp de nanda",
-            feedback: "Buenísima la optimización. Ya no se me laguea nada, el pc me va como avión, todo rápido y confiable. 100% recomendado👾"
+            name: "Ronnie",
+            feedback: "buena  optimización  todo muy rápido ahora me va mucho mejor los juegos y siento que tengo 0 imput lag 100% recomendable"
            
         },
         {
-            name: "Bvjaaa.",
-            feedback: "Buena optimizacion me subio fps me quito mucho inputlag recomiendo la opti"
+            name: "F2 Fabi.",
+            feedback: "Muy buena optimización siento que va más fluido todo me subieron los fps,recomendado y satisfecho con el servicio 10/10"
             
         },
         {
@@ -134,7 +134,7 @@ export const Optimizacion = () => {
 
 
 
-    <h4 className="headerText mb-3">$10.000 CLP / 12 USD</h4>
+    <h4 className="headerText mb-3">10.000 CLP / 12 USD</h4>
     <div className="row">
         <div className="col-sm-12 col-md-12 p-4 mt-3">
             <div className="d-flex align-items-center justify-content-start mb-2">

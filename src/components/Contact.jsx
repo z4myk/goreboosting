@@ -1,10 +1,49 @@
-import React from 'react'
-import fondo from '../assets/fondo.jpg'
+import React, {useState} from 'react'
+
+import emailjs from '@emailjs/browser';
+
+import Swal from 'sweetalert2';
 export const Contact = () => {
+
+  const [nombre, setNombre] = useState('');
+  const [email, setEmail] = useState('');
+  const [mensaje, setMensaje] = useState('');
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAIL_SERVICE_ID, 
+      import.meta.env.VITE_EMAIL_TEMPLATE_ID, 
+      e.target, 
+      { publicKey: import.meta.env.VITE_EMAIL_USER_ID }
+  )
+  .then((result) => {
+      Swal.fire({
+          position: 'top-end',
+          icon: 'success',
+          title: 'El email se ha enviado con éxito!',
+          color: '#fff',
+          background: '#191a19',
+          showConfirmButton: false,
+          timer: 1500
+      });
+  
+      setNombre('');
+      setEmail('');
+      setMensaje('');
+  }, (error) => {
+      console.log(error.text);
+  });
+  
+  e.target.reset();
+};
+
+
     return (
         <>
             <section className="container pt-5 mb-5 pb-5">
-            <h2 className="text-center text-light" id="contactanos">Contactanos</h2>
+            <h2 className="text-center text-light" id="contactanos">Contactame</h2>
             <div className="d-flex justify-content-center mb-4">
                 <hr className="w-50" />
             </div>
@@ -64,20 +103,20 @@ export const Contact = () => {
                 <div className="text-center text-light container ">
                    
 
-    <p className="mt-3">Contáctenos a través del Chat en Vivo o complete este formulario.</p>
+    <p className="mt-3">Contáctame a través del Chat en Vivo o complete este formulario.</p>
 
-    <form className="d-flex flex-column align-items-center">
+    <form className="d-flex flex-column align-items-center" onSubmit={sendEmail}>
         <div className="p-2 w-75 mb-2">
            
-            <input className="form-control bg-dark borderInputs p-2 text-light" placeholder="Nombre" type="text" />
+            <input className="form-control bg-dark borderInputs p-2 text-light" type="text" value={nombre} name="name" placeholder="Nombre" onChange={(e) => setNombre(e.target.value)} required/>
         </div>
 
         <div className="p-2 w-75 mb-2">
-            <input className="form-control bg-dark borderInputs p-2 text-light" placeholder="Email" type="email" />
+            <input className="form-control bg-dark borderInputs p-2 text-light" placeholder="Email" type="email" value={email} name="email" onChange={(e) => setEmail(e.target.value)} required/>
         </div>
 
         <div className="p-2 w-75 mb-2">
-           <textarea className="bg-dark form-control borderInputs text-light" placeholder="Mensaje" rows="4"></textarea>
+           <textarea className="bg-dark form-control borderInputs text-light" rows="4" value={mensaje} name="message" placeholder="Mensaje..." onChange={(e) => setMensaje(e.target.value)} required></textarea>
         </div>
 
         <button className="btn btn-success w-75  p-2" type="submit">Enviar</button>

@@ -1,6 +1,7 @@
 import React from "react";
-import background from "../assets/background.png";
+import background1 from "../assets/background1.jpg";
 import optimizacion from "../assets/optimizacion.jpg";
+import coaching from "../assets/coaching.jpg";
 import {Link} from 'react-router-dom'
 export const Header = () => {
   return (
@@ -26,17 +27,23 @@ export const Header = () => {
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active d-item">
-              <img src={background} class="imagenCarousel " alt="..." />
+              <img src={background1} class="imagenCarousel " alt="..." />
               <div className="carousel-caption top-0  pt-5  pb-5 ">
                 <div className="row contenidoCarrousel">
                   <div className="col-sm-12 col-md-12 mt-5">
                     <h1 className="text-light">
-                    Líder en Eloboost Profesional Sube de rango
-                      en CS, Valorant y LoL con boosters
-                      de élite. 🏆
+                    Líder en Eloboost y servicio Profesional de coaching Sube de rango
+                      en Valorant. 🏆
                     </h1>
                     <p className="text-light">
                       {" "}
@@ -67,7 +74,27 @@ export const Header = () => {
                 <div className="d-flex justify-content-center">
                   <Link to="/optimizacion-para-pc#optimizacion">
                     <div class="button-borders">
-                      <button class="primary-button"> VER MAS DETALLES</button>
+                      <button class="primary-button"> VER MÁS DETALLES</button>
+                    </div>
+                  </Link>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src={coaching} class="imagenCarousel w-100" alt="..." />
+              <div className="carousel-caption top-0   pb-5 ">
+                <div className="row contenidoCarrousel">
+                  <div className="col-sm-12 col-md-12 mt-5 pt-5">
+                    <h2 className="text-light"> Coaching Profesional de Valorant 🎯</h2>
+                    <p>Lleva tu juego al siguiente nivel con un entrenamiento personalizado según tu rango. Mejora tus habilidades, corrige tus errores y mantente actualizado con estrategias adaptadas a cada parche. ¡Conviértete en el jugador que siempre quisiste ser!</p>
+
+                <div className="d-flex justify-content-center">
+                  <Link to="/coaching#coaching">
+                    <div class="button-borders">
+                      <button class="primary-button"> VER MÁS INFORMACIÓN</button>
                     </div>
                   </Link>
                 </div>

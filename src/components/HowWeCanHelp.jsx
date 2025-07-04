@@ -5,12 +5,13 @@ import anonimato from '../assets/anonimato.png'
 import destello from '../assets/destello.png'
 import regalo from '../assets/regalo.png'
 import cheque from '../assets/cheque.png'
+import ranking from '../assets/ranking.png'
 export const HowWeCanHelp = () => {
     return (
         <div className="pb-2">
             <section className="triangle p-5 mb-5">
                 <div className="text-center mb-5" >
-                    <h2 className="text-light ">¿Cómo ayudamos?</h2>
+                    <h2 className="text-light ">¿Cómo te ayudo?</h2>
                     <div className="d-flex justify-content-center ">
 
 <hr className="w-50"/>
@@ -20,7 +21,7 @@ export const HowWeCanHelp = () => {
                 <div className="d-flex flex-wrap justify-content-around">
                     <div className="help-card text-center">
                         <img src={cohete} className="w-25" alt="Cohete"/>
-                        <p className="text-light "><b>Subimos tu MMR Interno (Valorant/LOL/CS2)</b></p>
+                        <p className="text-light "><b>Subimos tu MMR Interno</b></p>
                         <p className="small text-light textoContraste">Gracias a las victorias amplias y el buen desempeño, tu MMR interno sube, haciendo que en un futuro te toque gente más competente ya sea en tu equipo como en el equipo rival.</p>
                     </div>
 
@@ -33,7 +34,7 @@ export const HowWeCanHelp = () => {
                     <div className="help-card text-center">
                     <img src={anonimato} className="w-25" alt="anonimato" />
                         <p className="text-light"><b>Anonimato</b></p>
-                        <p className="small text-light textoContraste">Todo lo hacemos bajo lo anónimo, no publicamos tu nombre, ni tu número de ranking en el caso de que lo tengas, jamás en todas las cuentas han baneado a un usuario por "boosting", ya que no damos “say” en el juego, ni publicamos nada con los nombres de los clientes ni las cuentas, en ningún tipo de juego.</p>
+                        <p className="small text-light textoContraste">Todo lo hago bajo lo anónimo, no publico tu nombre, ni tu número de ranking en el caso de que lo tengas, jamás en todas las cuentas han baneado a un usuario por "boosting", ya que no doy “say” en el juego, ni publico nada con los nombres de los clientes ni las cuentas, en ningún tipo de juego.</p>
                     </div>
                 </div>
                     <div className="d-flex justify-content-around flex-wrap mt-4">
@@ -47,15 +48,16 @@ export const HowWeCanHelp = () => {
                     </div>
 
                     <div className="help-card text-center">
-                    <img src={regalo} className="w-25" alt="regalo" />
-                        <p className="text-light"><b>Regalos extras</b></p>
-                        <p className="small text-light textoContraste">¿Necesitas la animación del “rank up” cuando llegues a tu rango soñado? o algún par de clips o “foto de la carrera” no hay problema, en GoreBoosting no cobramos un extra por este tipo de peticiones.</p>
+                    <img src={ranking} className="w-25" alt="regalo" />
+       
+                        <p className="text-light"><b>Boost SoloQ</b></p>
+                        <p className="small text-light textoContraste">Todos los servicios de Elo Boost se realizan exclusivamente en Solo Queue, asegurando un progreso real y consistente en tu cuenta. No utilizamos Flex ni otros modos para inflar el MMR: tu mejora es auténtica, estable y orientada al rendimiento individual.</p>
                     </div>
 
                     <div className="help-card text-center">
                     <img src={cheque} className="w-25" alt="Buen comportamiento"/>
                         <p className="text-light"><b>Buen comportamiento</b></p>
-                        <p className="small text-light textoContraste">Somos profesionales en lo que hacemos, y lo tratamos con seriedad. Al momento de jugar en la cuenta del cliente, muteamos al equipo enemigo, ocultamos nombre y solo ganamos. No damos espacio a la toxicidad, ya que nos hacemos responsables de sus preciadas cuenta.</p>
+                        <p className="small text-light textoContraste">Soy profesionales en lo que hago, y lo trato con seriedad. Al momento de jugar en la cuenta del cliente, muteamos al equipo enemigo, ocultamos nombre y solo gano. No doy espacio a la toxicidad, ya que me hago responsables de sus preciadas cuenta.</p>
                     </div>
                 </div>
             </section>

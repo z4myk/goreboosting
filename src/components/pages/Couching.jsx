@@ -80,6 +80,11 @@ export const Couching = () => {
 
 <div className="d-flex align-items-center justify-content-start mb-2">
 <i class="fi fi-ss-badge-check text-success me-2"></i>
+<span className="text-light small">-5 Sesiones mensuales</span>
+</div>
+
+<div className="d-flex align-items-center justify-content-start mb-2">
+<i class="fi fi-ss-badge-check text-success me-2"></i>
 <span className="text-light small">-Análisis completo de tu estilo de juego</span>
 </div>
 
@@ -210,6 +215,7 @@ export const Couching = () => {
                     <hr className="w-50" />
                 </div>
 <p className="text-secondary small">El precio es igualitario para cualquier grupo, ya sea Jade, Zafiro o Ámbar. </p>
+<small><b>(5 sesiones en el mes, elige tu horario y día)</b></small> 
 <div className="d-flex justify-content-between mb-5 mt-5">
     <div>
         <img src={chile} className="w-25"/>

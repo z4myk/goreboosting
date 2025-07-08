@@ -6,6 +6,7 @@ import destello from '../assets/destello.png'
 import regalo from '../assets/regalo.png'
 import cheque from '../assets/cheque.png'
 import ranking from '../assets/ranking.png'
+import twitch from '../assets/twitch.png'
 export const HowWeCanHelp = () => {
     return (
         <div className="pb-2">
@@ -44,7 +45,7 @@ export const HowWeCanHelp = () => {
                     <div className="help-card text-center">
                     <img src={destello} className="w-25" alt="destello"/>
                         <p className="text-light"><b>Rapidez</b></p>
-                        <p className="small text-light textoContraste">Tenemos victorias amplias y aplastantes, no importa el rango, esto hace el proceso mucho más rápido y es por eso que goreboosting es tan solicitado a la hora de elegir el servicio de eloboost.</p>
+                        <p className="small text-light textoContraste">Tengo victorias amplias y aplastantes, no importa el rango, esto hace el proceso mucho más rápido y es por eso que goreboosting es tan solicitado a la hora de elegir el servicio de eloboost.</p>
                     </div>
 
                     <div className="help-card text-center">
@@ -57,7 +58,15 @@ export const HowWeCanHelp = () => {
                     <div className="help-card text-center">
                     <img src={cheque} className="w-25" alt="Buen comportamiento"/>
                         <p className="text-light"><b>Buen comportamiento</b></p>
-                        <p className="small text-light textoContraste">Soy profesionales en lo que hago, y lo trato con seriedad. Al momento de jugar en la cuenta del cliente, muteamos al equipo enemigo, ocultamos nombre y solo gano. No doy espacio a la toxicidad, ya que me hago responsables de sus preciadas cuenta.</p>
+                        <p className="small text-light textoContraste">Soy profesional en lo que hago, y lo trato con seriedad. Al momento de jugar en la cuenta del cliente, muteamos al equipo enemigo, ocultamos nombre y solo gano. No doy espacio a la toxicidad, ya que me hago responsables de sus preciadas cuenta.</p>
+                    </div>
+                </div>
+
+                <div className="d-flex justify-content-center mt-4">
+                <div className="help-card text-center">
+                    <img src={twitch} className="w-25" alt="twitch"/>
+                        <p className="text-light"><b>Transmiciones en vivo en Twitch</b></p>
+                        <p className="small text-light textoContraste"> A través de mis transmisiones en vivo, te ofrezco tips, estrategias y análisis en tiempo real para que puedas llevar tu juego al siguiente nivel. Durante las partidas, explico tácticas, mecánicas y cómo aprovechar las características del juego para dominar a tus oponentes.</p>
                     </div>
                 </div>
             </section>

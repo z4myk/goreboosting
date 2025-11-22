@@ -9,6 +9,7 @@ import { Couching } from "../components/pages/Couching";
 import { Optimizacion } from "../components/pages/Optimizacion";
 import { Valorant } from "../components/pages/Valorant";
 import {Wrapper} from '../Wrapper'
+import { GoreStore } from "../components/GoreStore";
 export const AppRouter = () => {
   return (
     <>
@@ -17,10 +18,11 @@ export const AppRouter = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route  path="/eloboost-valorant" element={<Valorant />} />
-        {/* <Route  path="/eloboost-leagueoflegends" element={<LeagueOfLegends />} />
-        <Route  path="/eloboost-counterstrike2" element={<CounterStrike2 />} /> */}
+         <Route  path="/eloboost-leagueoflegends" element={<LeagueOfLegends />} />
+        {/* <Route  path="/eloboost-counterstrike2" element={<CounterStrike2 />} />  */}
         <Route  path="/optimizacion-para-pc" element={<Optimizacion  />} />
         <Route  path="/coaching" element={<Couching />} />
+        <Route  path="/gorestore" element={<GoreStore />} />
       </Routes>
       <Footer />
     </>

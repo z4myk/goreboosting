@@ -12,13 +12,13 @@ export const Footer = () => {
       <section className="row container-fluid"> {/* Cambiado a container-fluid */}
         <div className="col-sm-12 col-md-4 mb-5  text-center">
           <h4>
-            <i className="fi fi-rs-rocket-lunch iconLogo"></i> <b>goreboosting</b>
+            <i className="fi fi-rs-rocket-lunch iconLogo"></i> <b>W Boosting</b>
           </h4>
         </div>
         <div className="col-sm-12 col-md-4 text-center  boxFooter"> {/* Añadido text-center */}
           <h6>Sobre mi</h6>
           <p className="small text-secondary p-4">
-                   <b> Goreboosting</b> se especializa en ofrecer un servicio de eloboost impecable desde hace más de 3 años. A lo largo del tiempo, he expandido el alcance, con más de <b>3200</b> cuentas eloboosteadas y sin ningún baneo por eloboost, toxicidad o cualquier otro motivo. Soy profesional en lo que hago y mi seriedad y compromiso me han convertido <b>en una de las opciones de eloboost más confiables y rápidas del mercado</b>.
+                   <b> W Boosting</b> se especializa en ofrecer un servicio de eloboost impecable desde hace más de 3 años. A lo largo del tiempo, he expandido el alcance, con más de <b>3200</b> cuentas eloboosteadas y sin ningún baneo por eloboost, toxicidad o cualquier otro motivo. Soy profesional en lo que hago y mi seriedad y compromiso me han convertido <b>en una de las opciones de eloboost más confiables y rápidas del mercado</b>.
                     </p>
                     
         </div>
@@ -54,7 +54,7 @@ export const Footer = () => {
         </div>
         <div className="col-12 mt-5 text-center"> {/* Añadido text-center */}
           <div className="d-flex justify-content-center gap-4 flex-wrap">
-            <a href="https://www.facebook.com/goreboosting/" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestra página de Facebook">
+            {/* <a href="https://www.facebook.com/goreboosting/" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestra página de Facebook">
               <i className="fi fi-brands-facebook"></i>
               <span class="visually-hidden">Facebook</span>
             </a>
@@ -69,8 +69,8 @@ export const Footer = () => {
             <a href="https://www.twitch.tv/goretwitch" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro canal de Twitch">
               <i className="fi fi-brands-twitch"></i>
               <span class="visually-hidden">Twitch</span>
-            </a>
-            <a href="http://discord.gg/invite/goreboosting" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro Discord">
+            </a> */}
+            <a href="https://discord.com/invite/VY2vfCjret" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro Discord">
               <i className="fi fi-brands-discord"></i>
               <span class="visually-hidden">Discord</span>
             </a>
@@ -104,7 +104,7 @@ export const Footer = () => {
         </div>
       </section>
       <p className="small text-secondary text-center mt-4">
-        Copyright © goreboosting 2025. Desarrollado por <a href="https://www.aintech.com.ar" target="_blank" className="text-primary">aintech.com.ar</a>.
+        Copyright © W Boosting 2025. Desarrollado por <a href="https://www.aintech.com.ar" target="_blank" className="text-primary">aintech.com.ar</a>.
       </p>
     </footer>
   );

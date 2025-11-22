@@ -23,6 +23,14 @@ export const Services = () => {
                     </div>
                           </Link>
                     </div>
+                    <div className="">
+                          <Link to="/eloboost-leagueoflegends">
+                        <img src={leagueoflegend} className="cardValorant  rounded shadow" alt="Valorant" />
+                        <div class="button-borders mt-3 w-100 ">
+                      <button class="primary-button w-100 "> ELOBOOST LEAGUE OF LEGENDS</button>
+                    </div>
+                          </Link>
+                    </div>
 
                     <div className="">
                             <Link to="/coaching#coaching">

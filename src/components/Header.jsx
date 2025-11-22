@@ -2,6 +2,7 @@ import React from "react";
 import background1 from "../assets/background1.jpg";
 import optimizacion from "../assets/optimizacion.jpg";
 import coaching from "../assets/coaching.jpg";
+import juegos from "../assets/juegos.jfif";
 import {Link} from 'react-router-dom'
 export const Header = () => {
   return (
@@ -32,6 +33,12 @@ export const Header = () => {
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="2"
               aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
             ></button>
             
           </div>
@@ -93,6 +100,27 @@ export const Header = () => {
 
                 <div className="d-flex justify-content-center">
                   <Link to="/coaching#coaching">
+                    <div class="button-borders">
+                      <button class="primary-button"> VER MÁS INFORMACIÓN</button>
+                    </div>
+                  </Link>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src={juegos} class="imagenCarousel w-100" alt="..." />
+              <div className="carousel-caption top-0   pb-5 ">
+                <div className="row contenidoCarrousel">
+                  <div className="col-sm-12 col-md-12 mt-5 pt-5">
+                    <h2 className="text-light"> GoreStore – Juegos de Steam al Mejor Precio 🛒</h2>      
+                     <p>Consigue tus juegos favoritos de Steam a precios exclusivos. Elige hasta 
+          <strong> 10 juegos por solo $20 USD</strong>, agregados directamente a tu 
+          biblioteca personal mediante un proceso rápido y seguro vía AnyDesk.</p>
+
+                <div className="d-flex justify-content-center">
+                  <Link to="/gorestore">
                     <div class="button-borders">
                       <button class="primary-button"> VER MÁS INFORMACIÓN</button>
                     </div>

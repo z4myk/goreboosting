@@ -16,7 +16,7 @@ export const AboutUs = () => {
     return (
         <section className="container mt-5">
             <div className=" ">
-                <h2 className="text-light text-center mt-5 pt-4" id="nosotros">Sobre GOREBOOSTING</h2>
+                <h2 className="text-light text-center mt-5 pt-4" id="nosotros">Sobre W Boosting</h2>
                 <div className="d-flex justify-content-center">
                     <hr className="w-50" />
                 </div>
@@ -26,7 +26,7 @@ export const AboutUs = () => {
                 <div className="col-sm-12 col-md-6 text-light">
                       <h5 className="text-center">Soy Especialista<img src={medalladeoro} className="iconoMedallaDeOro" alt="Medalla de oro" /></h5>
                     <p className="text-light">
-                   <b> Goreboosting</b> se especializa en ofrecer un servicio de eloboost impecable desde hace más de 3 años. A lo largo del tiempo, he expandido el alcance, con más de <b>3200</b> cuentas eloboosteadas y sin ningún baneo por eloboost, toxicidad o cualquier otro motivo.
+                   <b> W Boosting</b> se especializa en ofrecer un servicio de eloboost impecable desde hace más de 3 años. A lo largo del tiempo, he expandido el alcance, con más de <b>3200</b> cuentas eloboosteadas y sin ningún baneo por eloboost, toxicidad o cualquier otro motivo.
                     </p>
                     <p>
                     Soy profesional en lo que hago y mi seriedad y compromiso me han convertido <b>en una de las opciones de eloboost más confiables y rápidas del mercado</b>.

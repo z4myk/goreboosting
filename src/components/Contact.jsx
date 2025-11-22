@@ -55,7 +55,7 @@ export const Contact = () => {
                
 
                 <div className="cardFooter mx-3 text-center d-flex justify-content-center gap-4">
-                  <a
+                  {/* <a
                     className="socialContainer text-decoration-none containerOne"
                     target="_blank"
                     href="http://instagram.com/goreboosting_oficial"
@@ -65,7 +65,7 @@ export const Contact = () => {
                       class="fi fi-brands-instagram rounded text-light socialSvg"
                       aria-hidden="true"
                     ></i>
-                  </a>
+                  </a> */}
 
                   <a
                     className="socialContainer text-decoration-none containerThree"
@@ -78,19 +78,19 @@ export const Contact = () => {
                   <a
                     className="socialContainer text-decoration-none containerFour"
                     target="_blank"
-                    href="http://discord.gg/invite/goreboosting"
+                    href="https://discord.com/invite/VY2vfCjret"
                   >
                      <span class="visually-hidden">Discord</span>
                     <i class="fi fi-brands-discord iconDiscord  text-light mx-5 socialSvg"></i>
                   </a>
-                  <a
+                  {/* <a
                     className="socialContainer text-decoration-none containerFive"
                     target="_blank"
                     href="http://facebook.com/goreboosting"
                   >
                      <span class="visually-hidden">Facebook</span>
                     <i class="fi fi-brands-facebook text-light socialSvg"></i>
-                  </a>
+                  </a> */}
                 </div>
        
 

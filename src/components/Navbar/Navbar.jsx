@@ -5,7 +5,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark backgroundFooter  p-3">
       <div className="container-fluid">
         <Link to="/" className="text-decoration-none">
-        <a className="navbar-brand text-light" href="#"> <i class="fi fi-rs-rocket-lunch iconLogo"></i> <b>goreboosting</b></a>
+        <a className="navbar-brand text-light" href="#"> <i class="fi fi-rs-rocket-lunch iconLogo"></i> <b>WBoosting</b></a>
         </Link>
         <button
           className="navbar-toggler rounded"
@@ -33,6 +33,11 @@ export const Navbar = () => {
             <li className="nav-item">
               <Link to="/coaching#coaching" className="text-decoration-none">
               <a className="nav-link text-light navbarButtons efectoListaCoaching" href="#"><b>Coaching</b></a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/gorestore" className="text-decoration-none">
+              <a className="nav-link text-light navbarButtons efectoListaCoaching" href="#"><b>Juegos Steam</b></a>
               </Link>
             </li>
             <li className="nav-item">

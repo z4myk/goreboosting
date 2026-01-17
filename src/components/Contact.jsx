@@ -78,7 +78,7 @@ export const Contact = () => {
                   <a
                     className="socialContainer text-decoration-none containerFour"
                     target="_blank"
-                    href="discord.gg/gorestore"
+                    href="http://discord.gg/gorestore"
                   >
                      <span class="visually-hidden">Discord</span>
                     <i class="fi fi-brands-discord iconDiscord  text-light mx-5 socialSvg"></i>

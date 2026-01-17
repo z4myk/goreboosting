@@ -70,7 +70,7 @@ export const Footer = () => {
               <i className="fi fi-brands-twitch"></i>
               <span class="visually-hidden">Twitch</span>
             </a> */}
-            <a href="https://discord.com/invite/VY2vfCjret" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro Discord">
+            <a href="discord.gg/gorestore" target="_blank" className="text-decoration-none text-light" aria-label="Visita nuestro Discord">
               <i className="fi fi-brands-discord"></i>
               <span class="visually-hidden">Discord</span>
             </a>
